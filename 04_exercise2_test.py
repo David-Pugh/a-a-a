@@ -39,7 +39,7 @@ class TestClass:
         assert example_function("test","6", 4) == -24 
 
 def example_function(x,y,m):
-    #idigit only detects positive so use cast and catch
+    #isdigit only detects positive so use cast and catch
    x = is_int(x)
    y = is_int(y)
    m = is_int(m)
